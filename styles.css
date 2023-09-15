@@ -17,9 +17,8 @@ body{
     padding: 15px;
     background-color: #EEEEEE;
     margin-bottom: 32px;
-    filter: blur(30px);
-    transition: 0.4s all ease;
-    transform: translateX(-200%);
+    filter: blur(10px);
+    transition: 1s all ease;
 }
 
 .card .top{
@@ -44,5 +43,4 @@ body{
 
 .show{
     filter: blur(0);
-    transform: translateX(0);
 }
