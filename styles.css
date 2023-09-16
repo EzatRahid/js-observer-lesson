@@ -7,7 +7,17 @@
 }
 
 body{
-    margin: 32px;
+}
+
+.bar{
+    height: 90px;
+    width: 100%;
+    background-color: #ccc;
+}
+.reveal{
+    background-color: pink;
+    position: fixed;
+    top: 0;
 }
 
 .card{
@@ -19,6 +29,8 @@ body{
     margin-bottom: 32px;
     filter: blur(10px);
     transition: 1s all ease;
+    margin-left: 32px;
+    margin-top: 32px;
 }
 
 .card .top{
