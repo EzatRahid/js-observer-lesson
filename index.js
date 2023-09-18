@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded',() =>{
         entries.forEach(entry =>{
             entry.target.classList.toggle('show',entry.isIntersecting)
         })
+        if(entry.isIntersecting){
+            observer.unobserve(entries.target)
+        }
     })
 
     cards.forEach(card =>{
